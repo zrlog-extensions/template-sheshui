@@ -1,0 +1,14 @@
+name: template-sheshui
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+permissions:
+  contents: write
+jobs:
+  theme:
+    uses: zrlog-extensions/templates/.github/workflows/theme-release.yml@cd8a80159b5e06ccd7112ad7b2fb4b132ceee524
+    with:
+      toolkit-ref: cd8a80159b5e06ccd7112ad7b2fb4b132ceee524
+      publish: ${{ startsWith(github.ref, 'refs/tags/v') }}

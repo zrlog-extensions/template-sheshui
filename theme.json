@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "template-sheshui",
+  "name": "ZrLog 博客主题",
+  "author": "ZrLog",
+  "description": "经典双栏博客主题，提供分类归档侧栏与移动端响应式适配。",
+  "repository": "https://github.com/zrlog-extensions/template-sheshui",
+  "engine": "freemarker",
+  "sourceDirectory": ".",
+  "testedRuntime": "3.9.2",
+  "preview": "https://www.zrlog.com/attached/template/preview/template-sheshui.jpg",
+  "createdDate": "2016-01-04 13:00:00",
+  "tags": [
+    "清爽",
+    "蓝色",
+    "双栏布局",
+    "经典"
+  ],
+  "en": {
+    "name": "Classic ZrLog Theme",
+    "desc": "A classic two-column blog theme with category archives in the sidebar and a responsive mobile layout.",
+    "tags": [
+      "Clean",
+      "Blue",
+      "Two Columns",
+      "Classic"
+    ]
+  },
+  "distribution": {
+    "mode": "shared",
+    "target": "github-release"
+  },
+  "latestRelease": null,
+  "historicalRelease": {
+    "tag": "v1.0.0",
+    "url": "https://dl.zrlog.com/attachment/template/template-sheshui.zip"
+  }
+}
